@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;500&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Cinzel", serif;
+  --font-display: "Orbitron", sans-serif;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   
   --color-brand-brown-dark: #545454;
   --color-brand-brown-light: #CFCFCF;
   --color-brand-brown-mid: #676767;
+  --color-brand-black: #000000;
   --color-brand-white: #FFFFFF;
 }
 
@@ -21,14 +22,14 @@
   }
 }
 
-.btn-greek {
-  @apply rounded-full shadow-[0px_4px_10px_rgba(84,84,84,0.3)] hover:shadow-none transition-all active:translate-y-[2px] flex items-center justify-center bg-brand-brown-dark text-white;
+.btn-tech {
+  @apply rounded-full shadow-[0px_4px_10px_rgba(0,0,0,0.3)] hover:shadow-none transition-all active:translate-y-[2px] flex items-center justify-center bg-brand-black text-white;
 }
 
 .minimalist-card {
   @apply border border-brand-brown-light rounded-2xl p-6 transition-all hover:border-brand-brown-mid;
 }
 
-.header-greek {
+.header-tech {
   @apply bg-brand-white border-b border-brand-brown-light sticky top-0 z-50;
 }

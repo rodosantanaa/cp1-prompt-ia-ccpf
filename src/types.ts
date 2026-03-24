@@ -1,59 +1,59 @@
-export interface GreekMenuItem {
+export interface ComputerProduct {
   id: number;
   name: string;
   description: string;
   price: number;
-  category: 'Entradas' | 'Pratos Principais' | 'Sobremesas' | 'Bebidas';
+  category: 'Laptops' | 'Desktops' | 'Componentes' | 'Periféricos';
   image: string;
 }
 
-export const GREEK_MENU: GreekMenuItem[] = [
+export const COMPUTER_PRODUCTS: ComputerProduct[] = [
   {
     id: 1,
-    name: "Moussaka Tradicional",
-    description: "Camadas de berinjela, batata e carne moída temperada, cobertas com molho béchamel cremoso.",
-    price: 68.00,
-    category: 'Pratos Principais',
-    image: "https://picsum.photos/seed/moussaka/400/300"
+    name: "Laptop Pro Ultra",
+    description: "Processador de última geração, 32GB RAM e SSD de 1TB. Ideal para profissionais exigentes.",
+    price: 8500.00,
+    category: 'Laptops',
+    image: "https://picsum.photos/seed/laptop/400/300"
   },
   {
     id: 2,
-    name: "Salada Horiatiki",
-    description: "A autêntica salada grega com tomates suculentos, pepino, cebola roxa, azeitonas Kalamata e queijo Feta.",
-    price: 42.00,
-    category: 'Entradas',
-    image: "https://picsum.photos/seed/greeksalad/400/300"
+    name: "Desktop Gamer Titan",
+    description: "Placa de vídeo RTX 4080, resfriamento líquido e design minimalista em tons de cinza.",
+    price: 12400.00,
+    category: 'Desktops',
+    image: "https://picsum.photos/seed/desktop/400/300"
   },
   {
     id: 3,
-    name: "Souvlaki de Cordeiro",
-    description: "Espetinhos de cordeiro grelhados na brasa, servidos com pão pita artesanal e molho tzatziki.",
-    price: 55.00,
-    category: 'Pratos Principais',
-    image: "https://picsum.photos/seed/souvlaki/400/300"
+    name: "Monitor 4K Infinity",
+    description: "Tela de 32 polegadas com fidelidade de cor absoluta e bordas ultra finas.",
+    price: 3200.00,
+    category: 'Periféricos',
+    image: "https://picsum.photos/seed/monitor/400/300"
   },
   {
     id: 4,
-    name: "Baklava de Pistache",
-    description: "Massa folhada crocante com nozes, pistache e mel, aromatizada com canela e cravo.",
-    price: 28.00,
-    category: 'Sobremesas',
-    image: "https://picsum.photos/seed/baklava/400/300"
+    name: "Teclado Mecânico Silent",
+    description: "Switches lineares silenciosos, retroiluminação branca e acabamento em alumínio.",
+    price: 850.00,
+    category: 'Periféricos',
+    image: "https://picsum.photos/seed/keyboard/400/300"
   },
   {
     id: 5,
-    name: "Tzatziki com Pita",
-    description: "Iogurte grego cremoso com pepino, alho e azeite de oliva extra virgem.",
-    price: 24.00,
-    category: 'Entradas',
-    image: "https://picsum.photos/seed/tzatziki/400/300"
+    name: "Placa Mãe Z790 Elite",
+    description: "Suporte para DDR5, PCIe 5.0 e múltiplas entradas M.2 para máxima velocidade.",
+    price: 2100.00,
+    category: 'Componentes',
+    image: "https://picsum.photos/seed/motherboard/400/300"
   },
   {
     id: 6,
-    name: "Vinho Retsina",
-    description: "Vinho branco grego tradicional com um toque sutil de resina de pinheiro.",
-    price: 85.00,
-    category: 'Bebidas',
-    image: "https://picsum.photos/seed/retsina/400/300"
+    name: "Mouse Precision Wireless",
+    description: "Sensor de alta precisão, bateria de longa duração e ergonomia avançada.",
+    price: 450.00,
+    category: 'Periféricos',
+    image: "https://picsum.photos/seed/mouse/400/300"
   }
 ];
