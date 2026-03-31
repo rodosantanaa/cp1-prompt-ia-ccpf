@@ -6,6 +6,7 @@ RM: 570797
 
 Nathan Hiroshi Watanabe
 RM: 572806
+  Aprendi que dependendo da temperatura e do prompt, as informações recebidas podem variar de forma mais precisa
 
 Rodrigo Zambelle
 RM: 570425
