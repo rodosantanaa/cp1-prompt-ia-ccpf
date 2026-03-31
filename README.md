@@ -4,6 +4,7 @@ Projeto ccpf
 
 Angela Sousa Takezawa
 RM: 570797
+  Aprendi que o layout do site muda totalmente dependendo do que é pedido para a IA, uma loja de doces tem um design bem diferente de um site de jogos.
 
 Nathan Hiroshi Watanabe
 RM: 572806
