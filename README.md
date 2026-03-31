@@ -1,6 +1,7 @@
 ============================================
 
 Projeto ccpf
+
 Angela Sousa Takezawa
 RM: 570797
 
@@ -13,10 +14,12 @@ RM: 570425
 
 Rodrigo Fidelis Zarzar Santana
 Rm: 572454
+  Aprendi que existem diferentes respostas da IA dependendo do prompt e contexto usados. A diferença da qualidade do prompt pode afetar completamente o resultado 
 
 ============================================
 
 Valores 
+
 1- crie um site de pet shop
 
 2- crie um site de comida grega
