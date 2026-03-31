@@ -20,12 +20,13 @@ Rm: 572454
 ============================================
 
 Valores 
+optamos por cores claras e decidimos um visual mais minimalista pelos motivos:
 
-1- crie um site de pet shop
+1- crie um site de pet shop - mostrar ser um ambiente seguro para seu pet.
 
-2- crie um site de comida grega
+2- crie um site de comida grega - mesmo com as cores claras e pouca informação, ainda sim é possivel sentir a essencia da culura grega, e comida de qualidade.
 
-3- crie um site direcionado venda de peças de computador
+3- crie um site direcionado venda de peças de computador - quanto mais limpo o visual na tecnologia, melhor.
 
 ============================================
 
